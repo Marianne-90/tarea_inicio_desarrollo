@@ -16,6 +16,7 @@ class Myapp extends StatelessWidget {
       debugShowCheckedModeBanner: false, // <- para que quite el banner de debug
       title: 'Welcome to Flutter',
       home: Scaffold(
+        appBar: AppBar(title: Text('Welcome to Flutter')),
         // <- esto hace que tenga un mejor formato es un widget como una pieza de Lego
         body: Center(child: Text('Hello World')),
       ),
